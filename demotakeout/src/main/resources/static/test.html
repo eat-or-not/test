@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <script src="js/jquery.min.js"></script>
+</head>
+<body>
+
+<div>
+    <input type="text" id="i">
+    <input type="button" value="confirm" id="btn">
+</div>
+
+<script>
+    $("#btn").click(function() {
+        var x = document.getElementById("i").value;
+        alert("\"" + x + "\"");
+        x = $.trim(x);
+        alert("\"" + x + "\"");
+    });
+</script>
+
+</body>
+</html>

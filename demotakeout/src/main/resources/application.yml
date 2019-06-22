@@ -1,0 +1,5 @@
+hbase:
+  conf:
+    confMaps:
+      #'hbase.zookeeper.quorum' : '59.77.7.53:2181'
+      'hbase.zookeeper.quorum' : '59.77.7.54:2181'
